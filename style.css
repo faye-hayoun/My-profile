@@ -1,0 +1,98 @@
+body {
+background-color: lightpink;
+color: saddlebrown;
+text-align: center;
+font-size: 30px;
+}
+
+h1 {
+color : purple;
+font-size: 60px;
+letter-spacing: 7px;
+text-decoration: blink;
+text-align: center;
+font-style: oblique;
+} 
+
+h2 {
+color: darkred;
+font-size: 35px;
+font-family: apple chancery, cursive;
+}
+
+#selena img {
+width: 275px;
+border-radius: 50%;
+border: 10px dashed deeppink;
+}
+
+a {
+color: saddlebrown;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+a:hover {
+color: deeppink;
+text-decoration: none;
+}
+
+.btn-pink {
+ background-color: powderblue;
+ color: deeppink;
+ padding: 15px 20px;
+ border-radius: 5px;
+}
+
+.btn-pink:hover {
+ background-color: black;
+ color: deeppink;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li{
+display: inline;
+padding-left: 10px;
+}
+.list-inline i{
+font-size: 70px;
+
+}
+
+/*Custom design*/
+
+.container{
+margin: 30px auto;
+width: 975px;
+}
+
+@media (max-width: 500px) {
+  .container{
+  	width:400px 
+  }
+}
+
+@media (max-width: 750px) {
+  .container{
+  	width:600px 
+  }
+}
+
+
+
+.cardwhite{
+	padding: 60px;
+  background: floralwhite;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  box-shadow: 0px 13px 40px maroon;
+  border-radius: 10px;"
+}
+
+#introduction p{
+margin-bottom: 50px;
+
+}
